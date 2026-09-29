@@ -104,25 +104,16 @@ src/python/sih26166/app/__main__.py
 ```text
 Orbit-X-Multi-Modal-Correspondence-Registration-Engine-for-Chandrayaan-2-Imagery/
 │
-├── data/
-│   ├── interim/                         # generated/intermediate results
-│   ├── processed/                       # generated processed data
+├── data                  
 │   ├── raw/
 │   │   ├── IIRS/
 │   │   ├── OHRC/
 │   │   └── TMC/
 │   └── samples/                         # lightweight sample imagery
 │
-├── evaluation/
 ├── experiments/
-│   └── controlled_final_verification/
-│       └── final_verification/
-├── metadata/
-│   └── pds4/
-├── models/
 │
 ├── src/
-│   ├── cpp/
 │   └── python/
 │       └── sih26166/
 │           ├── app/
@@ -158,7 +149,6 @@ Orbit-X-Multi-Modal-Correspondence-Registration-Engine-for-Chandrayaan-2-Imagery
 │       └── test_visualizations.py
 │
 ├── .gitignore
-├── execute.txt
 ├── LICENSE
 ├── pyproject.toml
 └── requirements.txt
