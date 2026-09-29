@@ -234,7 +234,6 @@ SIH 2026/
 │       └── real_tmc2_*.png
 │
 ├── experiments/
-│   └── controlled_final_verification/
 │
 ├── tests/
 │   └── python/
