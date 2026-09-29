@@ -1,0 +1,36 @@
+# [ANNOTATION] Specify the build tool dependencies required to compile and install this package.
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+# [ANNOTATION] Core metadata defining the PyPI distribution attributes for the sih26166 project.
+[project]
+name = "sih26166"
+version = "0.1.0"
+description = "Multi-modal, sun-angle and scale invariant image correspondence for Chandrayaan-2 optical imagery (OHRC, TMC, IIRS)"
+readme = "README.md"
+requires-python = ">=3.12"
+
+# [ANNOTATION] Production runtime dependencies required for basic numerical and tabular processing.
+dependencies = [
+    "numpy",
+    "pandas",
+]
+
+# [ANNOTATION] Optional developer dependencies for testing, interactive analysis, plotting, and code formatting.
+[project.optional-dependencies]
+dev = [
+    "matplotlib",
+    "pytest",
+    "ruff",
+    "jupyter",
+]
+
+# [ANNOTATION] Declare executable command line entry points provided by this package.
+[project.scripts]
+sih26166-gui = "sih26166.app.gui:main"
+
+# [ANNOTATION] Configure setuptools package discovery mechanisms to look inside the src/python directory.
+[tool.setuptools.packages.find]
+where = ["src/python"]
+namespaces = true
