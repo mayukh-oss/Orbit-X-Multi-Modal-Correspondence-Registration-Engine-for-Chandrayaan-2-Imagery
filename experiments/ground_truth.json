@@ -1,0 +1,32 @@
+{
+  "mode": "CONTROLLED_VALIDATION",
+  "reference_to_source_matrix": [
+    [
+      1.1227404081879233,
+      -0.24890555602881828,
+      164.13002881515604
+    ],
+    [
+      0.24890555602881828,
+      1.1227404081879233,
+      -402.37964437583514
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "scale": 1.15,
+  "rotation_deg": 12.5,
+  "translation_x": 35.0,
+  "translation_y": -22.0,
+  "image_width": 2048,
+  "image_height": 2048,
+  "photometric": {
+    "gamma": 0.95,
+    "contrast": 1.05,
+    "gradient_strength": 0.12,
+    "gradient_angle_deg": 35.0
+  }
+}

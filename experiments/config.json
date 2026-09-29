@@ -1,0 +1,16 @@
+{
+  "reference_image": "/home/mayukh/Documents/SIH 2026/data/samples/real_tmc2_nca_20200804_x576_y73576_2048.png",
+  "output_directory": "/home/mayukh/Documents/SIH 2026/experiments/controlled_final_verification",
+  "run_id": "final_verification",
+  "seed": 26166,
+  "scale": 1.15,
+  "rotation_deg": 12.5,
+  "translation_x": 35.0,
+  "translation_y": -22.0,
+  "photometric": {
+    "gamma": 0.95,
+    "contrast": 1.05,
+    "gradient_strength": 0.12,
+    "gradient_angle_deg": 35.0
+  }
+}
