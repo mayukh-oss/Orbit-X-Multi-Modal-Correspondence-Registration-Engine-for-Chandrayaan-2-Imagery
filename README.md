@@ -231,10 +231,7 @@ SIH 2026/
 │   ├── samples/
 │   │   ├── controlled_reference.png
 │   │   ├── real_ohrc_*.png
-│   │   └── real_tmc2_*.png
-│   └── interim/
-│       ├── controlled/
-│       └── tmc2_benchmark/
+│       └── real_tmc2_*.png
 │
 ├── experiments/
 │   └── controlled_final_verification/
@@ -261,7 +258,6 @@ SIH 2026/
 ├── pyproject.toml
 ├── requirements.txt
 ├── .gitignore
-└── execute.txt
 ```
 
 ---
