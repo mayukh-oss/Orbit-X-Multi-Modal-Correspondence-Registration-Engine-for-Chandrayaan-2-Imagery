@@ -40,27 +40,27 @@ The architecture is modular so that the current SIFT baseline or individual proc
                               │
                               ▼
                     ┌───────────────────┐
-                    │  INGEST & VALIDATE │
-                    │ PDS4 + metadata    │
+                    │  INGEST & VALIDATE│
+                    │ PDS4 + metadata   │
                     └─────────┬─────────┘
                               │
                               ▼
                     ┌───────────────────┐
                     │      PREPARE      │
-                    │ Normalize / window │
+                    │ Normalize / window│
                     └─────────┬─────────┘
                               │
                               ▼
                     ┌───────────────────┐
-                    │     CORRESPOND     │
-                    │ SIFT + ratio +     │
-                    │ mutual matching    │
+                    │     CORRESPOND    │
+                    │ SIFT + ratio +    │
+                    │ mutual matching   │
                     └─────────┬─────────┘
                               │
                               ▼
                     ┌───────────────────┐
                     │ GEOMETRIC VERIFY  │
-                    │ RANSAC + inliers   │
+                    │ RANSAC + inliers  │
                     └─────────┬─────────┘
                               │
                               ▼
@@ -79,8 +79,8 @@ The architecture is modular so that the current SIFT baseline or individual proc
                     ┌───────────────────┐
                     │ REGISTER & EVAL.  │
                     │ Image + residuals │
-                    │ + quantitative     │
-                    │ diagnostics        │
+                    │ + quantitative    │
+                    │ diagnostics       │
                     └───────────────────┘
 ```
 
